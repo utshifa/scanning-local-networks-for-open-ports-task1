@@ -1,14 +1,14 @@
 # Task 01: Local Network Port Scan
 
 ## Overview
-In this task, we performed a basic **network reconnaissance** on our local network to understand which devices and services are exposed. The goal was to identify **open ports** on devices in the network and assess potential security risks.
+A basic **network scanner** on our local network to understand which devices and services are exposed. The goal was to identify **open ports** on devices in the network and assess potential security risks.
 
 ---
 
 ## Tools Used
 - **Kali Linux (VM)** – operating system for running tools
 - **Nmap** – network scanning tool
-- **Wireshark (optional)** – for packet analysis
+- **Wireshark** – for packet analysis 
 
 ---
 
@@ -16,8 +16,8 @@ In this task, we performed a basic **network reconnaissance** on our local netwo
 1. Checked the VM’s IP address and identified the local network subnet.
 2. Ran an Nmap **SYN scan (`-sS`)** on the subnet to detect open TCP ports.
 3. Collected the scan results in **text (`scan.txt`)** and **XML (`scan.xml`)** formats.
-4. (Optional) Converted XML to **HTML report** for easier visualization.
-5. Analyzed open ports and identified common services (SSH, HTTP, HTTPS, etc.).
+4. Converted XML to **HTML report** for easier visualization.
+5. Analyzed open ports and identified common services.
 6. Documented findings and potential security risks in `report.md`.
 
 ---
@@ -32,4 +32,4 @@ In this task, we performed a basic **network reconnaissance** on our local netwo
 ## Files in this Repository
 - `report.md` – detailed analysis and findings  
 - `scans/` – contains raw scan outputs (`.txt`, `.xml`, `.html`)  
-- `captures/` – packet captures for analysis
+- `captures/` – packet captures for analysis(not included here)
